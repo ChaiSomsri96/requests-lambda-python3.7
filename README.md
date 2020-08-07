@@ -3,7 +3,7 @@ Python requests module from AWS Lambda(Python 3.7)
 
 > How to use this
 
-
+```
 import requests
 import json
 # from extract import extract_element_from_json
@@ -71,3 +71,4 @@ def lambda_handler(event, context):
         'body': "Success"
     }
 
+```
